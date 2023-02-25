@@ -1,0 +1,48 @@
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn-outline-warning {
+                width: 70%;
+       
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    h1 {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 4rem;
+    }
+    .d-flex{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .img {
+        width: 60%;
+        height: 30%;
+    }
+    .btn-outline-warning {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 500;
+
+}
+}
+
+@media screen and (max-width:400px){
+    h1 {
+             
+        font-size: 2.5rem;
+    }
+    .btn-outline-warning {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .testiminoal-img{
+        width: 30%;
+    }
+}

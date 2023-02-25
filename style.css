@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Poppins", serif ;
+}
+
+/* 
+*********************************
+        Navbar
+*********************************
+ */
+
+@media screen and (min-width:992px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: #403f3f;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 1rem 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin: 0 1rem;
+    }
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #403f3f;
+    width: 0;
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 10rem;
+}
+
+.nav-link {
+    color: #403f3f;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+.nav-link:hover {
+    color: #fc8200 !important;
+}
+
+/* 
+******************************************
+            Section
+******************************************
+*/
+
+.img {
+    width: 38%;
+    height: 30%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.text span {
+    color: #fc8200;
+}
+
+.btn-outline-warning{
+    color: #fc8200 ;
+    border-color: #fc8200;
+    width: 50%;
+    margin-top: 1.2rem;
+}
+.btn-outline-warning:hover{
+    color: black;
+    background-color: #fc8200;
+}
+
+
+/* 
+*************************************************
+                Courses
+*************************************************
+*/
+
+.courses{
+    margin: 3.5rem 0 2rem;
+    text-align: center;
+    background-color:  #403f3f;
+       color: white;
+    border-radius: 0.5rem;
+    
+}
+
+
+
+h3{
+    font-size: 2.5rem;
+}
+
+.course-card{
+    display: flex;
+    flex-direction: row;
+}
+.card-body{
+width: 70%;
+
+}
+
+.card-img{
+    width: 50%;
+    height: 100%;
+}
+
+.course-btn{
+    color: #403f3f ;
+    border-color: #403f3f;
+       margin-top: 1.2rem;
+}
+
+.course-btn:hover{
+    color: White;
+    background-color: #403f3f;
+}
+
+/*
+****************************************************
+                Testimonials
+****************************************************
+*/
+
+.testimonials{
+    text-align: center;
+   padding: 5rem;
+}
+
+.testimonial-heading{
+    text-align: center;
+      
+}
+
+h2{
+    font-family: "Poppins", serif; 
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.testiminoal-img{
+    width: 10%;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+h4{
+    font-family: "Poppins", serif; 
+    color: white;
+    font-size: 1.3rem;
+    
+   
+}
+
+.carousel{
+    background-color: #fc8200;
+    padding: 2.5rem 0 ;
+    margin-top: 3rem;
+}
+
+/* 
+****************************************************
+                Features
+****************************************************
+*/
+
+
+.feature-title{
+    font-family: "Poppins", serif;
+    font-size: 2rem;
+}
+.feature-text{
+font-family: "Poppins", serif;
+color: #403f3f;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.feature-card{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+/* 
+****************************************************************************
+                                Contacts
+****************************************************************************
+*/
+
+.contact{
+    background-color: #403f3f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.fa-brands{
+    margin: 0 1.2rem;
+}
+  
